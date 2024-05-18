@@ -13,6 +13,8 @@ import { Button } from '@/components/ui/button'
 import { useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
 import * as z from 'zod'
+import { h } from 'vue'
+
 import {
   FormControl,
   FormDescription,
@@ -87,7 +89,7 @@ const onSubmit = handleSubmit((values) => {
       </CardHeader>
       <CardContent class="grid gap-4">
         <form class="w-2/3 space-y-6 mx-auto" @submit="onSubmit">
-          <FormField v-slot="{ usernameField }" name="username">
+          <FormField v-slot="usernameField" name="username">
             <FormItem>
               <FormLabel>Username</FormLabel>
               <FormControl>
@@ -96,7 +98,7 @@ const onSubmit = handleSubmit((values) => {
               <FormMessage />
             </FormItem>
           </FormField>
-          <FormField v-slot="{ passwordField }" name="password">
+          <FormField v-slot="passwordField" name="password">
             <FormItem>
               <FormLabel>Password</FormLabel>
               <FormControl>
