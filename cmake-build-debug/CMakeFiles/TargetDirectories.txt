@@ -1,3 +1,0 @@
-E:/Password-Manager/cmake-build-debug/CMakeFiles/Password_Manager.dir
-E:/Password-Manager/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Password-Manager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
