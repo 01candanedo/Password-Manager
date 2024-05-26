@@ -1,18 +1,15 @@
 # password-manager
 
-## About
-Originally created in August 2019 by @01candanedo, this C++ source code provided a local password management solution. Over time, technology evolves,>
-
 ## New Features
 
 ### Vue.js Integration: 
-We've rebuilt the password manager from the ground up using Vue.js, a progressive JavaScript framework, to provide a more dynamic and intuitive user >
+We've rebuilt the password manager from the ground up using Vue.js, a progressive JavaScript framework, to provide a more dynamic and intuitive user.
 
 ### Enhanced Security: 
-While maintaining the core security principles of the original version, our Vue.js-powered password manager offers additional layers of encryption an>
+While maintaining the core security principles of the original version, our Vue.js-powered password manager offers additional layers of encryption.
 
 ### Improved User Interface: 
-Enjoy a modern and responsive interface designed to streamline your password management experience. With Vue.js, we've prioritized simplicity and usa>
+Enjoy a modern and responsive interface designed to streamline your password management experience.
 
 ## Recommended IDE Setup
 
