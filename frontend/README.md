@@ -1,28 +1,6 @@
-# Password Manager
+# password-manager
 
-Welcome to Password Manager! This repository contains the source code and documentation.
-
-## Overview
-
-This project was originally created in August 2019 by @01candanedo, this C++ source code provided a local password management solution.
-
-## Documentation
-
-In this repository, you will find comprehensive documentation to help you understand and use the project effectively. The documentation includes:
-
-- **API Docs:** Detailed documentation for the project's API endpoints, parameters, and responses. You can find the API documentation in the `api-docs/` directory.
-
-- **Diagrams:** Visual representations of the project's architecture, workflows, or other relevant diagrams. Diagrams can be found in the `diagrams/` directory.
-
-- **Guides:** Step-by-step guides and tutorials to help you get started with the project and explore its features. You can find guides in the `guides/` directory.
-
-## Getting Started
-
-To view or use the project, you'll need to switch to the respective frontend and backend branches.
-
-## Contact
-
-If you have any questions, suggestions, or feedback, feel free to contact us at 01candanedo@gmail.com
+## New Features
 
 ### Vue.js Integration: 
 We've rebuilt the password manager from the ground up using Vue.js, a progressive JavaScript framework, to provide a more dynamic and intuitive user.
@@ -83,4 +61,10 @@ But it's still recommended to test the production build with `test:e2e` before d
 ```sh
 bun build
 bun test:e2e
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+bun lint
 ```
