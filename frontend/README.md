@@ -1,70 +1,27 @@
-# password-manager
+# Frontend
 
-## New Features
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
 
-### Vue.js Integration: 
-We've rebuilt the password manager from the ground up using Vue.js, a progressive JavaScript framework, to provide a more dynamic and intuitive user.
+## Development server
 
-### Enhanced Security: 
-While maintaining the core security principles of the original version, our Vue.js-powered password manager offers additional layers of encryption.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-### Improved User Interface: 
-Enjoy a modern and responsive interface designed to streamline your password management experience.
+## Code scaffolding
 
-## Recommended IDE Setup
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Build
 
-## Type Support for `.vue` Imports in TS
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Running unit tests
 
-## Customize configuration
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Running end-to-end tests
 
-## Project Setup
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-```sh
-bun install
-```
+## Further help
 
-### Compile and Hot-Reload for Development
-
-```sh
-bun dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-bun build
-```
-
-### Run Headed Component Tests with [Cypress Component Testing](https://on.cypress.io/component)
-
-```sh
-bun test:unit:dev # or `bun test:unit` for headless testing
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-bun test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-bun build
-bun test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-bun lint
-```
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
